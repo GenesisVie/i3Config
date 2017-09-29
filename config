@@ -99,8 +99,8 @@ bindsym $mod+a focus parent
 
 # Name the workspaces
 set $tag1 "1  "
-set $tag2 "2  "
-set $tag3 "3  "
+set $tag2 "2 "
+set $tag3 "3  "
 set $tag4 "4  "
 set $tag5 "5  "
 
@@ -141,6 +141,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+Escape exec i3lock -i ~/.Pictures/2.jpg
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
