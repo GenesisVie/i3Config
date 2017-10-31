@@ -54,8 +54,6 @@ status.register("window_title",
 	 format = "{title}",
 	 empty_title="",
 	 always_show = "False",
-
-
 )
 
 
