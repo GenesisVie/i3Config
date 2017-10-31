@@ -98,7 +98,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Name the workspaces
-set $tag1 "1  "
+set $tag1 "1  "
 set $tag2 "2 "
 set $tag3 "3  "
 set $tag4 "4  "
@@ -116,7 +116,7 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
-bindsym $mod+Shift+i; exec chromium
+bindsym $mod+Shift+i; exec firefox
 bindsym $mod+Shift+o; exec spotify
 bindsym $mod+Shift+p; exec teamspeak3
 
