@@ -119,9 +119,12 @@ bindsym $mod+0 workspace 10
 bindsym $mod+Shift+i; exec firefox
 bindsym $mod+Shift+o; exec spotify
 bindsym $mod+Shift+p; exec teamspeak3
+bindsym Print; exec deepin-screenshot
 
 #config son
-
+bindsym XF86AudioLowerVolume; exec amixer -q sset Master 5%-
+bindsym XF86AudioRaiseVolume; exec amixer -q sset Master 5%+
+bindsym XF86AudioMute; exec amixer set Master toggle
 
 
 # move focused container to workspace
@@ -199,8 +202,8 @@ set $darkred            #A54242
 set $green              #216994
 
 
-
-
+exec indicator-kdeconnect
+exec compton -b
 exec conky ~/config/conky/conky.conf
 exec feh --bg-fill ~/.Pictures/2.jpg
 exec --no-startup-id numlockx on
