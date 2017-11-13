@@ -176,7 +176,7 @@ bindsym $mod+r mode "resize"
 
 bar {
     position top
-    status_command python ~/.config/i3/i3pystatus_config.py
+   status_command python ~/.config/i3/i3pystatus_config.py
   colors {
   statusline	#999999
 background	$black
